@@ -30,40 +30,39 @@ The main goal of this project is to explore and analyze Kenyan YouTube channels 
 ### Python Libraries
 You can install the required Python libraries using pip:
 
-```bash
 pip install pandas matplotlib seaborn google-api-python-client
 
-YouTube API Key
+## YouTube API Key
 1. Create a Google Cloud Project.
 2. Enable the YouTube Data API v3.
 3. Generate an API key and add it to your Python script.
-# Usage
-Step 1: Clone the Repository
 
-```bash
-git clone https://github.com/yourusername/kenya-youtube-analysis.git
-cd kenya-youtube-analysis
+## Usage
+## Step 1: Clone the Repository
 
-Step 2: Add Your API Key
+git https://github.com/CRUD368/Capston_Project.git
+
+## Step 2: Add Your API Key
 In the youtube_kenya_analysis.py file, replace 'YOUR_API_KEY_HERE' with your actual YouTube API key.
 
-Step 3: Run the Analysis
-You can run the analysis by executing the script:
-```bash
+## Step 3: Run the Analysis
+### You can run the analysis by executing the 
+
+script:
 python YT_analysis.py
 
 
-# Data Collection
-The project collects data using the YouTube Data API, focusing on channels that match a specific keyword and are based in Kenya. The data includes:
+##Data Collection
+##The project collects data using the YouTube Data API, focusing on channels that match a specific keyword and are based in Kenya. The data includes:
 
-1. Channel ID
-2. Channel Title
-3. Subscriber Count
-4. Total Views
-5. Total Videos
-6. Engagement Metrics (likes, comments, etc.)
+### 1. Channel ID
+### 2. Channel Title
+### 3. Subscriber Count
+### 4. Total Views
+### 5. Total Videos
+### 6. Engagement Metrics (likes, comments, etc.)
 
-# Analysis
+## Analysis
 The analysis focuses on understanding the following:
 
 1. Video Production: Distribution of the number of videos across channels.
